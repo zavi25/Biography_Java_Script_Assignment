@@ -1,0 +1,60 @@
+body {
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    margin-bottom: 0.2em;
+}
+
+h1 {
+    margin-left: 5px;
+    color: gray;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+.profilePic{
+    margin: 2px auto;
+    justify-self: end;
+    
+}
+
+img {
+    
+    border: 0.5px solid gray;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 5px;
+    height: 40px;
+}
+  
+p {
+    color: gray;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 3px;
+    line-height: 8px;
+}
+
+.btn-text{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+button{
+    border: 0.5px solid gray;
+    font-size: 3px;
+    background-color: wheat;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
